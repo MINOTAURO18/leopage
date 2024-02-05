@@ -1,5 +1,6 @@
 .sectionOne{
-  background-color: rgb(246, 253, 255);
+  background-color: rgb(0, 42, 53);
+  color: white;
 }
 
 .sectionTwo{
@@ -46,6 +47,122 @@
 
   animation-range: entry 30% cover 80%;
 }
+
+span.item {
+  position:absolute;
+  position: fixed;
+  top: 80px;
+  right: 0;
+  width: 7rem;
+  height: 8rem;
+  transform: rotate(90deg) skewX(-12deg);
+  border-radius: 1.5rem;
+  background: linear-gradient(45deg, #008697, rgb(0, 0, 119));
+  filter: blur(5rem);
+  opacity: 0.8;
+  display: none;
+  z-index:-1 ;
+}
+
+@media (width > 200px) {
+  span.item {
+    right: 100px; 
+    opacity: 0.8; 
+    display: block; 
+  }
+}
+
+
+span.item2 {
+  position:absolute;
+  position: fixed;
+  bottom:10px;
+  left: 60%;
+  width: 10rem;
+  height: 9rem;
+  transform: rotate(50deg) skewX(-12deg);
+  border-radius: 1.5rem;
+  background: linear-gradient(45deg, #b002c7, rgb(0, 0, 119));
+  filter: blur(6rem);
+  opacity: 0.8;
+  display: none;
+  z-index:-1 ;
+}
+
+@media (width > 200px) {
+  span.item2 {
+    right: 100px; 
+    opacity: 0.8; 
+    display: block; 
+  }
+}
+
+
+span.item3 {
+  position:absolute;
+  position: fixed;
+  top: 40%;
+  left: 0;
+  width: 12rem;
+  height: 10rem;
+  transform: rotate(90deg) skewX(-12deg);
+  border-radius: 1.5rem;
+  background: linear-gradient(45deg, #5801ca, rgb(139, 84, 0));
+  filter: blur(6rem);
+  opacity: 0.8;
+  display: none;
+  z-index:-1 ;
+}
+
+@media (width > 200px) {
+  span.item3 {
+    right: 100px; 
+    opacity: 0.8; 
+    display: block; 
+  }
+}
+
+span.item4 {
+  position:absolute;
+  position: fixed;
+  top: 50px;
+  left: 30%;
+  width: 6rem;
+  height: 7rem;
+  transform: rotate(90deg) skewX(-12deg);
+  border-radius: 1.5rem;
+  background: linear-gradient(45deg, #008697, rgb(0, 0, 119));
+  filter: blur(5rem);
+  opacity: 0.8;
+  display: none;
+  z-index:-1 ;
+}
+
+@media (width > 200px) {
+  span.item4 {
+    right: 100px; 
+    opacity: 0.8; 
+    display: block; 
+  }
+}
+
+
+
+@media (width < 1000px) {
+  .home .full{
+      display: none;
+  }
+
+  .home{
+      justify-content: center;
+      align-items: center;
+  }
+
+  .home .jamy{
+      margin-top: 0;
+  }
+}
+
 
 @keyframes show {
     from{

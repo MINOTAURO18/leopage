@@ -153,6 +153,10 @@ const Home = () => {
         </div>
 
       </section>
+      <span className={styles.item}></span>
+      <span className={styles.item2}></span>
+      <span className={styles.item3}></span>
+      <span className={styles.item4}></span>
 
     </main>
   );
