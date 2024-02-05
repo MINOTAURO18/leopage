@@ -1,6 +1,6 @@
 .header {
   z-index: 99;
-  background-color: rgba(246, 253, 255, 0.945);
+  
   position: absolute;
   position: fixed;
   display: grid;

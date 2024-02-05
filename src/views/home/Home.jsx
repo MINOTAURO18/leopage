@@ -10,6 +10,7 @@ import box from "../../assets/box.svg";
 import dollar from "../../assets/dollar.svg";
 import plus from "../../assets/plus.svg";
 import smartwach from "../../assets/Smartwach.webp";
+import what from "../../assets/what.svg";
 import { useState, useEffect } from "react";
 
 const Home = () => {
@@ -63,11 +64,16 @@ const Home = () => {
             consectetur odio tempore commodi totam earum id, alias magni
             provident? Esse eaque incidunt id qui quaerat voluptates.
           </p>
-          <NavLink to='/products' className="w-28 h-10 border bg-emerald-400 rounded-md flex justify-center items-center font-bold hover:bg-emerald-500 transition">
+          <NavLink
+            to="/products"
+            className="w-28 h-10 border bg-emerald-400 rounded-md flex justify-center items-center font-bold hover:bg-emerald-500 transition"
+          >
             Buy
           </NavLink>
         </article>
-        <div className={`${styles.phones} flex h-8 w-2/5 justify-center items-center animate-bounce animate-infinite animate-duration-[2500ms]  z-30`}>
+        <div
+          className={`${styles.phones} flex h-8 w-2/5 justify-center items-center animate-bounce animate-infinite animate-duration-[2500ms]  z-30`}
+        >
           <img className={`w-96 z-10`} src={phones} alt="#" />
         </div>
         <span className={`${styles.deco}`}></span>
@@ -80,7 +86,7 @@ const Home = () => {
           Trending Categories
         </h2>
         <article className="w-full h-auto flex justify-between items-center gap-3 flex-wrap">
-          <div className="w-32 hover:animate-jump animate-once">
+          <div className="w-32 hover:animate-jump animate-once ">
             <img src={iphone} alt="" />
           </div>
           <div className="w-32 hover:animate-jump animate-once">
@@ -124,7 +130,10 @@ const Home = () => {
             </div>
           </span>
 
-          <NavLink to='/detail/5' className="w-28 h-10 border bg-emerald-400 rounded-md flex justify-center items-center font-semibold  hover:bg-emerald-500 transition">
+          <NavLink
+            to="/detail/5"
+            className="w-28 h-10 border bg-emerald-400 rounded-md flex justify-center items-center font-semibold  hover:bg-emerald-500 transition"
+          >
             Shop Now
           </NavLink>
         </article>
@@ -133,7 +142,9 @@ const Home = () => {
         </div>
       </section>
 
-      <section className={`${styles.sectionFourt} px-8% py-7 flex justify-center items-center gap-10 flex-wrap`}>
+      <section
+        className={`${styles.sectionFourt} px-8% py-7 flex justify-center items-center gap-10 flex-wrap`}
+      >
         <div className="flex flex-col justify-center items-center gap-2 text-center">
           <img className="w-10" src={dollar} alt="" />
           <h3 className="font-semibold text-emerald-400">Free Delivery</h3>
@@ -142,22 +153,27 @@ const Home = () => {
 
         <div className="flex flex-col justify-center items-center gap-2 text-center">
           <img className="w-12" src={box} alt="" />
-          <h3 className="font-semibold text-emerald-400">Paid monthly at 1% APR</h3>
+          <h3 className="font-semibold text-emerald-400">
+            Paid monthly at 1% APR
+          </h3>
           <p>free shipping to all of Colombia maximum 3 products</p>
         </div>
 
-        <div className="flex flex-col justify-center items-center gap-2 text-center"  >
+        <div className="flex flex-col justify-center items-center gap-2 text-center">
           <img className="w-10" src={plus} alt="" />
           <h3 className="font-semibold text-emerald-400">Personalize it</h3>
           <p>free shipping to all of Colombia maximum 3 products</p>
         </div>
-
       </section>
       <span className={styles.item}></span>
       <span className={styles.item2}></span>
       <span className={styles.item3}></span>
       <span className={styles.item4}></span>
-
+      <div className="whats">
+        <a href="#">
+          <img src={what} className="w-16" alt="" />
+        </a>
+      </div>
     </main>
   );
 };
