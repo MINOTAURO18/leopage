@@ -68,7 +68,7 @@ const Home = () => {
             to="/products"
             className="w-28 h-10 border bg-emerald-400 rounded-md flex justify-center items-center font-bold hover:bg-emerald-500 transition"
           >
-            Buy
+            Comprar
           </NavLink>
         </article>
         <div
@@ -112,7 +112,7 @@ const Home = () => {
       >
         <article className="flex flex-col gap-7 justify-center items-center">
           <span className="font-semibold text-emerald-400">Hurry Up !</span>
-          <span className="text-5xl font-semibold text-center max-w-lg">
+          <span className="text-5xl text-white font-semibold text-center max-w-lg">
             Up to 30% Discount Check it Out
           </span>
           <span className="flex gap-5 font-semibold">
@@ -169,9 +169,9 @@ const Home = () => {
       <span className={styles.item2}></span>
       <span className={styles.item3}></span>
       <span className={styles.item4}></span>
-      <div className="whats">
+      <div >
         <a href="#">
-          <img src={what} className="w-16" alt="" />
+          <img src={what} className="w-16 absolute right-5" alt="" />
         </a>
       </div>
     </main>
