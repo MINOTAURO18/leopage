@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom";
 import styles from "./navBar.module.css";
 import bag from '../../assets/bag.svg'
+import face from '../../assets/face.svg'
+import insta from '../../assets/insta.svg'
+import what from '../../assets/what2.svg'
 const NavBar = () => {
  
 
@@ -19,9 +22,9 @@ const NavBar = () => {
       </div>
 
       <div className="flex gap-3">
-        <img className="w-9" src={bag} alt="" />
-        <img className="w-9" src={bag} alt="" />
-        <img className="w-9" src={bag} alt="" />
+        <img className="w-9" src={face} alt="" />
+        <img className="w-9" src={insta} alt="" />
+        <img className="w-9" src={what} alt="" />
       </div>
     </header>
   );
