@@ -46,7 +46,7 @@ const Home = () => {
   }, [countdownDate]);
 
   return (
-    <main className={`${styles.home} text-zinc-900`}>
+    <main className={`${styles.home} text-zinc-900 relative`}>
       <section
         className={`${styles.sectionOne}  flex items-center w-full px-8% min-h-screen `}
       >
@@ -169,11 +169,9 @@ const Home = () => {
       <span className={styles.item2}></span>
       <span className={styles.item3}></span>
       <span className={styles.item4}></span>
-      <div >
-        <a href="#">
-          <img src={what} className="w-16 absolute right-5" alt="" />
-        </a>
-      </div>
+      <a href="#">
+      <img src={what} className={styles.whatsapp} alt="" />
+      </a>
     </main>
   );
 };
