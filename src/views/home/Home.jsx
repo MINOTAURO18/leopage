@@ -52,17 +52,15 @@ const Home = () => {
       >
         <article className={` ${styles.article}  flex flex-col gap-6`}>
           <span className="text-emerald-400 font-semibold">
-            technology out of this world !
+          Tecnología fuera de este mundo!
           </span>
           <h1 className="text-5xl font-bold max-w-2xl  ">
-            Empowering Your{" "}
-            <span className="text-emerald-400">Tomorrow with Todays</span>{" "}
-            Cutting-Edge Technology
+          Potenciando tu mañana{" "}
+            <span className="text-emerald-400">con la tecnología de </span>{" "}
+            vanguardia de hoy.
           </h1>
           <p className="max-w-xl">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam
-            consectetur odio tempore commodi totam earum id, alias magni
-            provident? Esse eaque incidunt id qui quaerat voluptates.
+          Descubre la excelencia en reparación de celulares y accesorios en LEOCELL Expertos en soluciones rápidas y productos de calidad para mantener tu dispositivo en su mejor forma. ¡Visítanos hoy para experimentar la diferencia
           </p>
           <NavLink
             to="/products"
@@ -83,7 +81,7 @@ const Home = () => {
         className={`${styles.sectionTwo}  flex flex-wrap gap-4 items-center w-full px-8% py-7`}
       >
         <h2 className="text-2xl text-emerald-400 font-semibold">
-          Trending Categories
+        Categorías Populares
         </h2>
         <article className="w-full h-auto flex justify-between items-center gap-3 flex-wrap">
           <div className="w-32 hover:animate-jump animate-once ">
