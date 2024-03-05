@@ -14,7 +14,7 @@ import what from "../../assets/what.svg";
 import { useState, useEffect } from "react";
 
 const Home = () => {
-  const [countdownDate] = useState(new Date("2023-12-31T00:00:00").getTime());
+  const [countdownDate] = useState(new Date("2024-04-31T00:00:00").getTime());
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -109,9 +109,9 @@ const Home = () => {
         className={`${styles.sectionThree} px-8% py-7 flex flex-wrap justify-center items-center gap-14`}
       >
         <article className="flex flex-col gap-7 justify-center items-center">
-          <span className="font-semibold text-emerald-400">Hurry Up !</span>
+          <span className="font-semibold text-emerald-400">Apúrate!</span>
           <span className="text-5xl text-white font-semibold text-center max-w-lg">
-            Up to 30% Discount Check it Out
+          Hasta un 30% de descuento ¡Échale un vistazo!
           </span>
           <span className="flex gap-5 font-semibold">
             <div className="w-16 h-14 bg-white rounded-md flex flex-col justify-center items-center ">
